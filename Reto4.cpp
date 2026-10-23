@@ -32,7 +32,7 @@ int main(){
     case 2:
         cout<<"Cantidad a retirar: "<<endl;
         cin>>retiro;
-        if(retiro <=1000 && retiro > 0){
+        if(retiro <=saldo && retiro > 0){
             cout<<retiro<<" dolares han sido retirados. Muchas gracias."<<endl;
             cuenta=saldo-retiro;
             cout<<"Saldo disponible: "<<cuenta<<endl;
